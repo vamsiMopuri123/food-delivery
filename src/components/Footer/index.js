@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='footer' id='footer'>
         <div className='footer-content'>
             <div className='footer-content-left'>
-              <img src={assets.logo} alt=''/>
+              <img style={{width: 140}} src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Zomato_Logo.svg" alt=''/>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever. </p>
               <div className='footer-social-icons'>
                 <img src={assets.facebook_icon} alt=''/>
@@ -27,12 +27,12 @@ export default function Footer() {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>+91-874-789-7744</li>
-                    <li>contact@tomato.com</li>
+                    <li>contact@zomato.com</li>
                 </ul>
             </div>
         </div>
         <hr />
-        <p className='footer-copyright'>Copyright 2024 @ Tomato.com - All Rights Reserved.</p>
+        <p className='footer-copyright'>Copyright 2024 @ Zomato.com - All Rights Reserved.</p>
     </div>
   )
 }

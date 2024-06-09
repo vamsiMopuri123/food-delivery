@@ -10,7 +10,7 @@ export default function Navbar({setLogIn}) {
   return (
     <div className='navbar'>
         <Link to="/">
-            <img className='logo' src={assets.logo} alt='tomato'/>
+            <img className='logo' src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Zomato_Logo.svg" alt='zomato'/>
         </Link>
         <ul className='navbar-menu'>
             <Link to='/' onClick={()=>setMenu("home")} className={menu=="home"?"active":""}>home</Link>
